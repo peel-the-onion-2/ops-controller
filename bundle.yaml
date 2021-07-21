@@ -1,9 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "peel-the-onion-2-ops-controller"
 description: "CloudBees CI configuration bundle for the peel-the-onion-2 ops-controller Controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/credentials.yaml"
+  - "jcasc/jenkins.yaml"
 plugins:
   - "plugins.yaml"
 catalog:
